@@ -1,0 +1,14 @@
+Jawaban Tutorial
+
+1. Tidak terjadi error dan menampilkan pesan berhasil ditambahkan sesuai dengan view
+   controller yang telah dibuat
+2. Terjadi whitable error page karena terdapat parameter yang belum ditambahkan yaitu
+   flyHour
+3. Setelah dilakukan add pada request mapping pilot/add/ maka pada request mapping
+   pilot/view sukses menampilkan data-data pilot yang telah di add sebelumnya
+4. Terjadi whitable error karena sebelumnya belum ditambahkan licenseNumber 1234 pada
+   request mapping pilot/add sehingga tidak dapat menampilkan hasilnya
+5. Muncul sesuai dengan data pilot yang sudah ditambahkan pada request mapping pilot/add
+6. Semua data pilot muncul karena baik data yang baru ditambahkan maupun data yang sudah
+   ditambahkan sebelumnya telah masuk dalam list PilotModel sehingga keseluruhan data
+   dapat ditampilkan
